@@ -19,6 +19,7 @@ def tactics4():
     ]
     return render_template('tactics4.html', tactics=tactics_data)
 
+
 @app.route('/tactics5')
 def tactics5():
     tactics_data = [
@@ -30,6 +31,7 @@ def tactics5():
         {'name': '5-2-3', 'description': 'This is a modern formation with 4 defenders, 3 midfielders, 2 wingers forward and 1 target forward.'},
     ]
     return render_template('tactics5.html', tactics=tactics_data)
+
 
 @app.route('/tactics3')
 def tactics3():
