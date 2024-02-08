@@ -9,7 +9,8 @@ def index():
 @app.route('/tactics4')
 def tactics4():
     tactics_data = [
-        {'name': '4 Defenders Formation'},
+        {'name': '4 Defenders Formations'},
+        {'description': 'The 4 defender tactics are a very popular tactic because tactical balance in both defensive and offensive.'},
         {'name': '4-4-2', 'description': 'This is a classic formation with 4 defenders, 4 midfielders, and 2 forwards.'},
         {'name': '4-2-4', 'description': 'This formation apply from 4-4-2 but 4-2-4 push both wingers higher to focus on full attack.'},
         {'name': '4-2-3-1', 'description': 'This formation apply from 4-4-2 but 4-2-3-1 will drop 1 striker down to be a playmaker.'},
@@ -21,7 +22,8 @@ def tactics4():
 @app.route('/tactics5')
 def tactics5():
     tactics_data = [
-        {'name': '5 Defenders Formation'},
+        {'name': '5 Defenders Formations'},
+        {'description': 'The 5 defender tactics are a very popular tactic because tactical balance in both defensive and offensive.'},
         {'name': '5-3-2', 'description': 'This is a classic formation with 4 defenders, 4 midfielders, and 2 forwards.'},
         {'name': '5-2-1-2', 'description': 'This formation apply from 4-4-2 but 4-2-4 push both wingers higher to focus on full attack.'},
         {'name': '5-4-1', 'description': 'This formation apply from 4-4-2 but 4-2-3-1 will drop 1 striker down to be a playmaker.'},
@@ -32,7 +34,8 @@ def tactics5():
 @app.route('/tactics3')
 def tactics3():
     tactics_data = [
-        {'name': '3 Defenders Formation'},
+        {'name': '3 Defenders Formations'},
+        {'description': 'The 3 defender tactics are a very popular tactic because tactical balance in both defensive and offensive.'},
         {'name': '3-4-3', 'description': 'This is a classic formation with 4 defenders, 4 midfielders, and 2 forwards.'},
         {'name': '3-5-2', 'description': 'This formation apply from 4-4-2 but 4-2-4 push both wingers higher to focus on full attack.'},
         {'name': '3-2-3-3', 'description': 'This formation apply from 4-4-2 but 4-2-3-1 will drop 1 striker down to be a playmaker.'},
