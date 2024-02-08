@@ -25,10 +25,10 @@ def tactics5():
     tactics_data = [
         {'name': '5 Defenders Formations'},
         {'description': "The 5 defender tactics are tactic that focuses on defending and using the player's individual abilities to attack."},
-        {'name': '5-3-2', 'description': 'This is a classic formation with 4 defenders, 4 midfielders, and 2 forwards.'},
-        {'name': '5-2-1-2', 'description': 'This formation apply from 4-4-2 but 4-2-4 push both wingers higher to focus on full attack.'},
-        {'name': '5-4-1', 'description': 'This formation apply from 4-4-2 but 4-2-3-1 will drop 1 striker down to be a playmaker.'},
-        {'name': '5-2-3', 'description': 'This is a modern formation with 4 defenders, 3 midfielders, 2 wingers forward and 1 target forward.'},
+        {'name': '5-2-3', 'description': 'This formation focuses on defending and counter attack with both wingers.'},
+        {'name': '5-2-1-2', 'description': 'This formation apply from 5-2-3 but 5-2-1-2 will drop 1 striker down to be a playmaker.'},
+        {'name': '5-3-2', 'description': 'This formation apply from 5-2-3 and 5-2-1-2 but 5-3-2 will drop 1 attacking player down to be a midfielders for more compact in the midfield.'},
+        {'name': '5-4-1', 'description': 'This formation main focuses on defending but still managed ball prosession in the midfield with four midfielders.'},
     ]
     return render_template('tactics5.html', tactics=tactics_data)
 
