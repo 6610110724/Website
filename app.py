@@ -13,6 +13,7 @@ def tactics():
     tactics_data = [
         {'name': '4-4-2', 'description': 'This is a classic formation with four defenders, four midfielders, and two forwards.'},
         {'name': '3-5-2', 'description': 'A formation with three defenders, five midfielders, and two forwards.'},
+        {'name': '4-3-3', 'description': 'This is a modern formation with four defenders, three midfielders, two wingers and one target forward.'}
         # Add more tactics as needed
     ]
     return render_template('tactics.html', tactics=tactics_data)
