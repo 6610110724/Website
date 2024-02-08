@@ -1,10 +1,10 @@
 from flask import Flask, render_template
-
 app = Flask(__name__)
 
 @app.route('/')
 def index():
     return render_template('index.html')
+
 
 @app.route('/tactics4')
 def tactics4():
@@ -20,6 +20,7 @@ def tactics4():
     return render_template('tactics4.html', tactics=tactics_data)
 
 
+
 @app.route('/tactics5')
 def tactics5():
     tactics_data = [
@@ -31,6 +32,7 @@ def tactics5():
         {'name': '5-4-1', 'description': 'This formation main focuses on defending but still managed ball prosession in the midfield with four midfielders.'},
     ]
     return render_template('tactics5.html', tactics=tactics_data)
+
 
 
 @app.route('/tactics3')
