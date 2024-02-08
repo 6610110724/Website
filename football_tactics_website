@@ -2,4 +2,6 @@ football_tactics_website/
     |- app.py
     |- templates/
         |- index.html
-        |- tactics.html
+        |- tactics4.html
+        |- tactics5.html
+        |- tactics3.html
