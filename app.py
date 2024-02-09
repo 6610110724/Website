@@ -5,19 +5,16 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-
 @app.route('/tactics4')
 def tactics4():
     tactics_data = [
         {'name': '4 Defenders Formations', 'description': 'The 4 defender tactics are very popular tactic because tactical balance in both defensive and offensive.'},
         {'name': '4-4-2', 'description': 'This is a classic formation with 4 defenders, 4 midfielders, and 2 forwards.'},
-        {'name': '4-2-4', 'description': 'This formation apply from 4-4-2 but 4-2-4 push both wingers higher to focus on full attack.'},
         {'name': '4-2-3-1', 'description': 'This formation apply from 4-4-2 but 4-2-3-1 will drop 1 striker down to be a playmaker.'},
         {'name': '4-3-3', 'description': 'This is a modern formation with 4 defenders, 3 midfielders, 2 wingers forward and 1 target forward.'},
         {'name': '4-3-1-2', 'description': 'This formation that apply from 4-3-3 but 4-3-1-2 has 1 playmaker and 2 strikers.'},
     ]
     return render_template('tactics4.html', tactics=tactics_data)
-
 
 
 @app.route('/tactics5')
@@ -31,8 +28,6 @@ def tactics5():
     ]
     return render_template('tactics5.html', tactics=tactics_data)
 
-
-
 @app.route('/tactics3')
 def tactics3():
     tactics_data = [
@@ -41,11 +36,8 @@ def tactics3():
         {'name': '3-4-1-2', 'description': 'This formation that apply from 3-4-3 but 3-4-1-2 has 1 playmaker and 2 strikers.'},
         {'name': '3-5-2', 'description': 'This formation apply from 3-4-3 and 3-4-1-2 but 3-5-2 drop 1 attacking player down to be a midfielders for more compact in the midfield.'},
         {'name': '3-2-3-2', 'description': 'This formation apply from 3-5-2 but 3-2-3-2 will drop 2 midfielders down to be a defensive midfielder to increase tightness in defensive.'},
-        {'name': '3-3-3-1', 'description': 'This is a modern formation with 3 defenders, 3 midfielders, 3 deep-lying forward and 1 target forward.'},
     ]
     return render_template('tactics3.html', tactics=tactics_data)
-
-
 
 if __name__ == '__main__':
     app.run(debug=True)
