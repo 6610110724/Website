@@ -44,7 +44,7 @@ def tactics3():
         {'name': '3-4-1-2', 'description': 'This formation that apply from 3-4-3 but 3-4-1-2 has 1 playmaker and 2 strikers.'},
         {'name': '3-5-2', 'description': 'This formation apply from 3-4-3 and 3-4-1-2 but 3-5-2 drop 1 attacking player down to be a midfielders for more compact in the midfield.'},
         {'name': '3-2-3-2', 'description': 'This formation apply from 3-5-2 but 3-2-3-2 will drop 2 midfielders down to be a defensive midfielder to increase tightness in defensive.'},
-        {'name': '3-3-2-1-1', 'description': 'This is a modern formation with 3 defenders, 3 midfielders, 2 playmakers, 1 deep-lying forward and 1 target forward.'},
+        {'name': '3-3-3-1', 'description': 'This is a modern formation with 3 defenders, 3 midfielders, 3 deep-lying forward and 1 target forward.'},
     ]
     return render_template('tactics3.html', tactics=tactics_data)
 
