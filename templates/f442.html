@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Tactics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #91c97a;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #cbffb7;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand"><b>All Tactics</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="{{ url_for('index') }}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('about') }}">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('tactics3') }}">3 DEF</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('tactics4') }}">4 DEF</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('tactics5') }}">5 DEF</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('supportus') }}">Support Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <div class="container">
+        <center>
+            <h1><b>4-4-2 Formation</b></h1>
+            <br>
+            <img src="../static/f442.jpg"  width="640" height="360">
+            <br>
+        </center>
+        <br>
+            <p>           The 4-4-2 formation is a classic football formation that consists of four defenders, four midfielders, and two strikers. It is a balanced formation that can be used in both attacking and defensive strategies. This formation is known for its balance and flexibility, as it can be used to control possession or sit back and defend, depending on the team's tactical approach.
+            </p>
+            <br>
+            <center>
+            <h2><b>STRENGTHS</b></h2>
+            </center>
+            <br>
+            <h3><b> Balanced Defense and Attack</b></h3>
+            <p>           The 4-4-2 formation allows for a balanced approach to both defense and attack. With four defenders at the back, the team is well-protected against opposition attacks, while the four midfielders and two forwards provide a potent attacking threat.</p>
+                
+            <h3><b> Clear Roles and Responsibilities</b></h3>
+            <p>           The 4-4-2 formation is a simple system that provides clear roles and responsibilities for each player on the pitch. This can help players to understand their position and what is expected of them, leading to better teamwork and communication on the field.</p>
+                
+            <h3><b> Wide Play</b></h3>
+            <p>           The four midfielders in the 4-4-2 formation provide width to the team's play, with the wingers stretching the opposition defense and creating space for the central midfielders and forwards.</p>
+                
+            <h3><b> Versatility</b></h3> 
+            <p>           The 4-4-2 formation is a flexible system that can adapt to different styles of play and opponent formations. It can be used to play a possession-based game, a counter-attacking style, or a direct attacking approach.</p>
+        
+            <br>
+            <center>
+            <h2><b>WEAKNESSES</b></h2>
+            </center>
+            <br>
+            <h3><b> Vulnerable on the Wings</b></h3>
+            <p>           While the wide midfielders in the 4-4-2 formation can provide width to the team's play, they can also leave the team vulnerable to counterattacks down the flanks. If the opposition wingers or full-backs are able to get past the wide midfielders, it can leave the team exposed at the back.</p>
+                
+            <h3><b> Lack of Midfield Control</b></h3>
+            <p>           While the two central midfielders can provide defensive cover, they can be overrun in midfield by opposition teams that play with three central midfielders. This can make it difficult for the team to control the midfield and create chances in attack.</p>
+                
+            <h3><b> Limited Tactical Flexibility</b></h3> 
+            <p>           While the 4-4-2 formation is a flexible system, it can be limited in its tactical options compared to more fluid formations such as the 4-3-3 or 3-5-2. This can make it more difficult to adapt to different opponents or game situations.</p>
+    </div>
+</body>
+</html>
