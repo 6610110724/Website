@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Tactics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #91c97a;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #cbffb7;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand"><b>All Tactics</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="{{ url_for('index') }}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('about') }}">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('tactics3') }}">3 DEF</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('tactics4') }}">4 DEF</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('tactics5') }}">5 DEF</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('supportus') }}">Support Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <div class="container">
+        <center>
+            <h1><b>4-3-3 Formation</b></h1>
+            <br>
+            <img src="../static/f433.jpg"  width="640" height="360">
+            <br>
+        </center>
+        <br>
+            <p>           The 4-3-3 formation is a popular and widely used soccer formation that has been employed by many top national and club teams around the world. It is a formation that provides both attacking and defensive options and is considered to be one of the most balanced formations in the game.
+
+                This formation can be considered an attacking formation as it involves having three forwards, four midfielders, and three defenders.
+            </p>
+            <br>
+            <center>
+            <h2><b>STRENGTHS</b></h2>
+            </center>
+            <br>
+            <h3><b> Width and Depth</b></h3>
+            <p>           The formation offers width and depth on the field, allowing the team to stretch the opposition defense horizontally and vertically. Wide forwards can provide width, while overlapping full-backs can add depth to the attack, creating space and opportunities for scoring goals.</p>
+                
+            <h3><b> Flexibility</b></h3>
+            <p>           The 4-3-3 formation is flexible and can be adjusted to suit various styles of play. It allows for fluid movement between attacking and defensive phases, enabling teams to adapt their strategy based on the match situation.</p>
+                
+            <h3><b> Pressing and Defensive Stability</b></h3>
+            <p>           The 4-3-3 formation can facilitate an effective pressing game, with forwards and midfielders working together to win the ball back high up the pitch. Additionally, the four defenders provide stability at the back, making it difficult for the opposition to break through.</p>
+                
+            <h3><b> Attacking Potential</b></h3> 
+            <p>           The 4-3-3 formation typically features four defenders, three midfielders, and three forwards, which allows for a balanced attack. The three forwards provide multiple options for penetrating the opposition defense, increasing the team's attacking potency.</p>
+        
+            <br>
+            <center>
+            <h2><b>WEAKNESSES</b></h2>
+            </center>
+            <br>
+            <h3><b> Dependency on wide attackers</b></h3>
+            <p>           In a 4-3-3, the wide forwards or wingers play a crucial role in stretching the opposition defense and providing crosses into the box. If these players are not in good form or are marked out of the game, the team's attacking options can become limited.</p>
+                
+            <h3><b> Pressure on lone striker</b></h3>
+            <p>           In some variants of the 4-3-3, particularly those with a single central striker, there can be significant pressure on that player to both hold up play and score goals. If the striker is isolated or marked out of the game, it can stifle the team's attacking threat.</p>
+                
+            <h3><b> Vulnerability in central midfield</b></h3> 
+            <p>           With only three midfielders, there can be a risk of being outnumbered in midfield battles, especially against teams that play with a diamond or three central midfielders. This can lead to difficulties in controlling possession and defending against quick transitions.</p>
+    </div>
+</body>
+</html>
