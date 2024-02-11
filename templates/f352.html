@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Tactics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #58B533;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #cbffb7;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand"><b>All Tactics</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="{{ url_for('index') }}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('about') }}">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('supportus') }}">Support Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('tactics3') }}">3 DEF</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('tactics4') }}">4 DEF</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('tactics5') }}">5 DEF</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <center>
+            <h1><b>3-5-2 Formation</b></h1>
+            <img src="../static/f352.jpg"  width="640" height="360">
+            <p> </p>
+        </center>
+            <p>           The 3-5-2 formation is a popular formation set in football that is used by many teams around the world. This formation is known for its balance between defense and attack, and it can be effective against a wide range of opponents.</p>
+            <br>
+            <center>
+            <h2><b>STRENGTHS</b></h2>
+            </center>
+            <br>
+            <h3><b> Strong Central Midfield</b></h3>
+            <p>           With three central midfielders, the 3-5-2 formation provides a solid foundation in the center of the pitch. This can make it difficult for opponents to control the midfield, and it allows the team to dominate possession and create scoring opportunities.</p>
+                
+            <h3><b> Midfield Control</b></h3>
+            <p>           The five midfielders in this formation provide a solid platform for the team to control the middle of the field. The two central midfielders can help in defense, while the wing-backs can create width in attack.</p>
+                
+            <h3><b> Strong Pressing</b></h3>
+            <p>           This formation can be effective in pressing the opposition high up the pitch, with the forwards and midfielders able to apply pressure on the opposition.</p>
+                
+            <h3><b> Defensive Cover</b></h3> 
+            <p>           The three central defenders in the 3-5-2 formation provide a strong defensive line, with the wider defenders able to push forward to support the midfield when needed. This can make it hard for opponents to break down the defense and create scoring opportunities.</p>
+        
+            <br>
+            <center>
+            <h2><b>WEAKNESSES</b></h2>
+            </center>
+            <br>
+            <h3><b> Vulnerable on the Wings</b></h3>
+            <p>           The 3-5-2 formation can be vulnerable on the wings, as the wing-backs tend to push forward in attack. This can leave space behind for the opposition to exploit and create scoring chances.</p>
+                
+            <h3><b> Less Creativity</b></h3>
+            <p>           While the central midfield trio provides defensive stability, it can also limit the team's creativity in the attacking third. It would be more difficult to create clear-cut chances and score goals engaging this formation.</p>
+                
+            <h3><b> Tactical flexibility</b></h3> 
+            <p>           The 3-5-2 formation requires a high degree of tactical understanding and discipline from the players. It can be challenging to execute effectively, particularly against well-organized opposition defenses. Teams using this formation need to have the flexibility to change their tactics based on the match's progress.</p>
+    </div>
+    
+</body>
+</html>

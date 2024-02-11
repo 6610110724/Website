@@ -11,13 +11,13 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f2f2f2;
+            background-color: #58B533;
         }
         .container {
             max-width: 800px;
             margin: 20px auto;
             padding: 20px;
-            background-color: #fff;
+            background-color: #cbffb7;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
@@ -38,9 +38,9 @@
     </style>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">All Attactics</a>
+        <a class="navbar-brand"><b>All Tactics</b></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -53,6 +53,15 @@
                     <a class="nav-link" href="{{ url_for('about') }}">About</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('tactics3') }}">3 DEF</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('tactics4') }}">4 DEF</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('tactics5') }}">5 DEF</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="{{ url_for('supportus') }}">Support Us</a>
                 </li>
             </ul>
@@ -60,10 +69,44 @@
     </div>
 </nav>
     <div class="container">
-        <h1>Football Tactics</h1>
-        <p>Formation for Four-Defenders Tactics <a href="{{ url_for('tactics4') }}">here</a>.</p>
-        <p>Formation for Five-Defenders Tactics <a href="{{ url_for('tactics5') }}">here</a>.</p>
-        <p>Formation for Three-Defenders Tactics <a href="{{ url_for('tactics3') }}">here</a>.</p>
+        <h1><b>All Tactics</b></h1>
+        <center>
+            <img src="../static/Alltac.jpg"  width="400" height="240">
+            <p> </p>
+        </center>
+        <br>
+        <h3><b>What is Football Tactics</b></h3>
+        <p> Football tactics refer to the strategic plans and systems employed by teams to achieve success on the pitch. It encompasses a wide array of elements, including formation, player positioning, movement patterns, and style of play. Tactics are crucial in determining the outcome of a match, as they dictate how a team defends, attacks, and transitions between these phases.
+        
+                Formations serve as the foundation of football tactics, with coaches selecting the arrangement of players on the field based on their strengths, weaknesses, and the opposition's tendencies. Whether it's the classic 4-4-2, the modern 4-3-3, or variations like the 3-5-2, each formation has its own advantages and challenges.
+            
+                Player positioning within these formations is essential for maintaining defensive solidity, creating passing lanes, and exploiting space to attack effectively. Tactical principles such as pressing, counter-pressing, zonal marking, and man-to-man marking are employed to disrupt opponents' play and regain possession.
+            
+                Furthermore, football tactics involve intricate movement patterns and off-the-ball runs to create scoring opportunities and break down stubborn defenses. Coaches drill their teams to execute set plays, counterattacks, and positional rotations with precision and coordination.
+            
+                Ultimately, football tactics are about maximizing a team's strengths while exploiting the weaknesses of the opposition. Success in football requires not only individual skill but also a deep understanding of tactical principles and the ability to adapt strategies based on the flow of the game.
+        </p>
+        <br>
+        <center>
+            <a href="{{ url_for('tactics3') }}">
+            <h5><b>Formation for Three-Defenders Tactics is here.</b></h5>
+            <img src="../static/f343.jpg"  width="320" height="180">
+            </a>
+        </center>
+        <br>
+        <center>
+            <a href="{{ url_for('tactics4') }}">
+            <h5><b>Formation for Four-Defenders Tactics is here.</b></h5>
+            <img src="../static/f442.jpg"  width="320" height="180">
+            </a>
+        </center>
+        <br>
+        <center>
+            <a href="{{ url_for('tactics5') }}">
+            <h5><b>Formation for Five-Defenders Tactics is here.</b></h5>
+            <img src="../static/f523.jpg"  width="320" height="180">
+            </a>
+        </center>
     </div>
 </body>
 </html>

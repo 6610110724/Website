@@ -11,13 +11,13 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f2f2f2;
+            background-color: #58B533;
         }
         .container {
             max-width: 800px;
             margin: 20px auto;
             padding: 20px;
-            background-color: #fff;
+            background-color: #cbffb7;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
@@ -25,31 +25,22 @@
             text-align: center;
             color: #333;
         }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            margin-bottom: 20px;
-            padding: 20px;
-            background-color: #f9f9f9;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            margin-top: 0;
-            color: #00ad17;
-        }
         p {
-            margin-bottom: 0;
-            color: #333;
+            margin-bottom: 10px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">All Attactics</a>
+            <a class="navbar-brand"><b>All Tactics</b></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -62,6 +53,12 @@
                         <a class="nav-link" href="{{ url_for('about') }}">About</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('tactics3') }}">3 DEF</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('tactics4') }}">4 DEF</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="{{ url_for('supportus') }}">Support Us</a>
                     </li>
                 </ul>
@@ -69,15 +66,15 @@
         </div>
     </nav>
     <div class="container">
-        <h1>Football Tactics with 5 Defenders</h1>
-        <ul>
-        {% for tactic in tactics %}
-            <li>
-                <h2>{{ tactic.name }}</h2>
-                <p>{{ tactic.description }}</p>
-            </li>
-        {% endfor %}
-        </ul>
+        <h1><b>Football Tactics with 5 Defenders</b></h1>
+        <br>
+        <center>
+            <ul>
+            {% for tactic in tactics %}          
+                <h2><b>{{ tactic.name }}</b></h2>
+                <p>{{ tactic.description }}</p>   
+            {% endfor %}
+            </ul>
+        </center>
     </div>
 </body>
-</html>

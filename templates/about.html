@@ -11,13 +11,13 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f2f2f2;
+            background-color: #58B533;
         }
         .container {
             max-width: 800px;
             margin: 20px auto;
             padding: 20px;
-            background-color: #fff;
+            background-color: #cbffb7;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
@@ -25,33 +25,22 @@
             text-align: center;
             color: #333;
         }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            margin-bottom: 20px;
-            padding: 20px;
-            background-color: #f9f9f9;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            /* Added cursor pointer to indicate it's clickable */
-            cursor: pointer;
-        }
-        h2 {
-            margin-top: 0;
-            color: #00ad17;
-        }
         p {
-            margin-bottom: 0;
-            color: #333;
+            margin-bottom: 10px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">All Attactics</a>
+            <a class="navbar-brand"><b>All Tactics</b></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -61,7 +50,13 @@
                         <a class="nav-link active" aria-current="page" href="{{ url_for('index') }}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('about') }}">About</a>
+                        <a class="nav-link" href="{{ url_for('tactics3') }}">3 DEF</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('tactics4') }}">4 DEF</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('tactics5') }}">5 DEF</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url_for('supportus') }}">Support Us</a>
@@ -70,15 +65,18 @@
             </div>
         </div>
     </nav>
-    <h1>
-        Football tactics refer to the strategic plans and systems employed by teams to achieve success on the pitch. It encompasses a wide array of elements, including formation, player positioning, movement patterns, and style of play. Tactics are crucial in determining the outcome of a match, as they dictate how a team defends, attacks, and transitions between these phases.
-        
-        Formations serve as the foundation of football tactics, with coaches selecting the arrangement of players on the field based on their strengths, weaknesses, and the opposition's tendencies. Whether it's the classic 4-4-2, the modern 4-3-3, or variations like the 3-5-2, each formation has its own advantages and challenges.
-        
-        Player positioning within these formations is essential for maintaining defensive solidity, creating passing lanes, and exploiting space to attack effectively. Tactical principles such as pressing, counter-pressing, zonal marking, and man-to-man marking are employed to disrupt opponents' play and regain possession.
-        
-        Furthermore, football tactics involve intricate movement patterns and off-the-ball runs to create scoring opportunities and break down stubborn defenses. Coaches drill their teams to execute set plays, counterattacks, and positional rotations with precision and coordination.
-        
-        Ultimately, football tactics are about maximizing a team's strengths while exploiting the weaknesses of the opposition. Success in football requires not only individual skill but also a deep understanding of tactical principles and the ability to adapt strategies based on the flow of the game.</h1>
+    <div class="container">
+        <center>
+            <h1><b>About All Tactics</b></h1>
+            <br>
+            <img src="../static/about.jpg"  width="400" height="236">
+        </center>
+        <br>
+        <p> 
+            All Tactics is a web-based educational football simulation that allows you to play football while learning about football tactics.
+
+By learning the All Tactics, you will be able to create your own style and football tactics, as well as level up your player while improving your football knowledge, which can be applied in the real world to help you enhance your football skills.
+        </p>
+    </div>
 </body>
 </html>
