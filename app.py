@@ -46,5 +46,33 @@ def f3412():
 def f352():
     return render_template('f352.html')
 
+@app.route('/f442')
+def f442():
+    return render_template('f442.html')
+
+@app.route('/f4312')
+def f4312():
+    return render_template('f4312.html')
+
+@app.route('/f4231')
+def f4231():
+    return render_template('f4231.html')
+
+@app.route('/f433')
+def f433():
+    return render_template('f433.html')
+
+@app.route('/f532')
+def f532():
+    return render_template('f532.html')
+
+@app.route('/f523')
+def f523():
+    return render_template('f523.html')
+
+@app.route('/f541')
+def f541():
+    return render_template('f541.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
