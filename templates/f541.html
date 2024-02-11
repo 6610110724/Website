@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Tactics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #91c97a;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #cbffb7;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand"><b>All Tactics</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="{{ url_for('index') }}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('about') }}">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('tactics3') }}">3 DEF</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('tactics4') }}">4 DEF</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('tactics5') }}">5 DEF</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('supportus') }}">Support Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <div class="container">
+        <center>
+            <h1><b>5-4-1 Formation</b></h1>
+            <br>
+            <img src="../static/f541.jpg"  width="640" height="360">
+            <br>
+        </center>
+        <br>
+            <p>           The 5-4-1 formation is a defensive formation that emphasizes a solid defensive structure and disciplined positioning.
+
+                The defense in this formation, is composed of five defenders - three center-backs and two wing-backs - who provide cover across the backline and are responsible for marking the opposition forwards. The midfield is made up of four players - two central midfielders and two wide midfielders - who work hard to track back and provide defensive support. The lone striker up front is often tasked with holding up the ball and creating scoring opportunities when the team is on the counter-attack.
+            </p>
+            <br>
+            <center>
+            <h2><b>STRENGTHS</b></h2>
+            </center>
+            <br>
+            <h3><b> Defensive Stability</b></h3>
+            <p>           TWith five defenders and four midfielders, the formation provides a solid defensive block that can be difficult for opposing teams to penetrate. The wing-backs can also provide cover on the flanks and prevent opposing wingers from creating scoring opportunities.</p>
+                
+            <h3><b> Midfield Control</b></h3>
+            <p>           The four midfielders in this formation provide a solid platform for the team to control the middle of the field. The two central midfielders can help in defense, while the wing-backs can create width in attack.</p>
+
+            <h3><b> Compact Shape</b></h3> 
+            <p>           The 5-4-1 formation can be very compact, with the midfield and defense working together to create a solid defensive structure. This can make it difficult for opposing teams to find space and create chances.
+
+            </p>
+        
+            <br>
+            <center>
+            <h2><b>WEAKNESSES</b></h2>
+            </center>
+            <br>
+            <h3><b> Limited Attacking Options</b></h3>
+            <p>           With only one striker up front, the team may struggle to create scoring opportunities and may be limited in their attacking options.
+
+            </p>
+                
+            <h3><b> Lack of Flexibility</b></h3>
+            <p>           The 5-4-1 formation can be rigid and may not allow for much flexibility during the game. This can make it difficult for the team to adjust to changes in the opposition's tactics or to switch up their own tactics during the game.</p>
+                
+            <h3><b> Possession Play Can be Difficult</b></h3> 
+            <p>           The midfielders need to be disciplined in their positioning and may not be able to provide enough attacking support. This can make it difficult for the team to maintain possession and create scoring opportunities.
+
+            </p>
+    </div>
+
+</body>
+</html>

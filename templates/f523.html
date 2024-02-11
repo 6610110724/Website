@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Tactics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #91c97a;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #cbffb7;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand"><b>All Tactics</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="{{ url_for('index') }}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('about') }}">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('tactics3') }}">3 DEF</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('tactics4') }}">4 DEF</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('tactics5') }}">5 DEF</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('supportus') }}">Support Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <div class="container">
+        <center>
+            <h1><b>5-2-3 Formation</b></h1>
+            <br>
+            <img src="../static/f523.jpg"  width="640" height="360">
+            <br>
+        </center>
+        <br>
+            <p>          The 5-2-3 formation is a variation of the 3-4-3 formation.The 5-2-3 formation is generally considered to be an attacking formation, as it features three forwards and two attacking wing-backs. However, it also provides a solid defensive structure with five defenders and two central midfielders. The formation's effectiveness depends on how it is utilized by the team and the players' individual strengths and abilities. Overall, the 5-2-3 formation can be a balanced formation that can provide both attacking and defensive capabilities.
+
+            </p>
+            <br>
+            <center>
+            <h2><b>STRENGTHS</b></h2>
+            </center>
+            <br>
+            <h3><b> Attacking Threat</b></h3>
+            <p>           The 5-2-3 formation is highly attacking and can create numerous scoring opportunities. With three forwards in the team, there is always a constant threat to the opposition defense.</p>
+                
+            <h3><b> Counter-Attacking Opportunities</b></h3>
+            <p>           The 5-2-3 formation can provide opportunities for quick counter-attacks, particularly if the opposition commits too many players forward.</p>
+                
+            <h3><b> Flexibility</b></h3>
+            <p>           The 5-2-3 formation is flexible and can easily switch to a 5-4-1 formation when defending and 3-4-3 when attacking. This provides extra cover for the defense and makes it difficult for the opposition to break through.</p>
+                
+            <h3><b> Defensive Cover</b></h3> 
+            <p>           With three center-backs (CB) in the team, the defense is solid and provides good cover for the goalkeeper. This formation is particularly effective against teams that play with two strikers, as the extra center-back can easily handle the additional attacks.</p>
+        
+            <br>
+            <center>
+            <h2><b>WEAKNESSES</b></h2>
+            </center>
+            <br>
+            <h3><b> Overworked Midfielders</b></h3>
+            <p>           The two central midfielders in the 5-2-3 formation may become overworked, especially if the opposition is strong in midfield. This can lead to fatigue and mistakes, which can be costly for the team. Limited Defensive Cover</p>
+                
+            <h3><b> Lack of Defensive Cover in Midfield</b></h3>
+            <p>           While the two central midfielders can provide defensive cover, they can be overrun in midfield by opposition teams that play with three central midfielders. This can make it difficult for the team to control the midfield and create chances in attack.</p>
+                
+            <h3><b> Limited Width</b></h3> 
+            <p>           The 5-2-3 formation requires specific player skills, such as attacking wing-backs who can provide width and defensive cover, and central midfielders who can control the midfield and support the attack. If the team does not have players with these specific skills, the formation may be less effective.</p>
+    </div>
+</body>
+</html>

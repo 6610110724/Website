@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Tactics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #91c97a;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #cbffb7;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand"><b>All Tactics</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="{{ url_for('index') }}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('about') }}">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('tactics3') }}">3 DEF</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('tactics4') }}">4 DEF</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('tactics5') }}">5 DEF</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('supportus') }}">Support Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <div class="container">
+        <center>
+            <h1><b>5-3-2 Formation</b></h1>
+            <br>
+            <img src="../static/f532.jpg"  width="640" height="360">
+            <br>
+        </center>
+        <br>
+            <p>           The 5-3-2 formation is a defensive-minded football formation that emphasizes a strong defensive structure and compactness in midfield. It is often used by teams that are looking to frustrate the opposition and counter-attack quickly when opportunities arise.
+            </p>
+            <br>
+            <center>
+            <h2><b>STRENGTHS</b></h2>
+            </center>
+            <br>
+            <h3><b> Wide Defensive Cover</b></h3>
+            <p>           The two wing-backs in the 5-3-2 formation provide wide defensive cover, which can help to neutralize opposition attacks from the flanks.</p>
+                
+            <h3><b> Counter-Attacking Threat</b></h3>
+            <p>           The 5-3-2 formation allows for quick and direct counter-attacks, as the two forwards can quickly transition from defense to attack with the support of the midfielders.</p>
+                
+            <h3><b> Flexibility</b></h3>
+            <p>           The 5-3-2 formation can be adapted to suit different opposition and game situations. For example, the midfielders can be instructed to sit deep and defend when protecting a lead, or they can be instructed to push forward and support the attack when chasing a goal.</p>
+                
+            <h3><b> Solid Defensive Structure</b></h3> 
+            <p>           With five defenders and three central midfielders, the 5-3-2 formation is designed to be defensively solid and difficult to break down. This can frustrate the opposition and limit their scoring opportunities.</p>
+        
+            <br>
+            <center>
+            <h2><b>WEAKNESSES</b></h2>
+            </center>
+            <br>
+            <h3><b> Limited Attacking Options</b></h3>
+            <p>           The 5-3-2 formation can be somewhat limited in attack, as there are only two forwards and three central midfielders to create scoring opportunities.
+
+            </p>
+                
+            <h3><b> High Fitness Demands</b></h3>
+            <p>           The 5-3-2 formation requires high levels of fitness from the players, especially the wing-backs who need to cover a lot of ground both in attack and defense.
+
+            </p>
+                
+            <h3><b> Vulnerability to Overloads</b></h3> 
+            <p>           With only three central midfielders, the 5-3-2 formation can be vulnerable to opposition teams that overload the midfield.</p>
+    </div>
+
+</body>
+</html>
