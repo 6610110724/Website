@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Tactics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #91c97a;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #cbffb7;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand"><b>All Tactics</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="{{ url_for('index') }}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('about') }}">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('tactics3') }}">3 DEF</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('tactics4') }}">4 DEF</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('tactics5') }}">5 DEF</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('supportus') }}">Support Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <div class="container">
+        <center>
+            <h1><b>4-2-3-1 Formation</b></h1>
+            <br>
+            <img src="../static/f4231.jpg"  width="640" height="360">
+            <br>
+        </center>
+        <br>
+            <p>           The 4-2-3-1 formation, a versatile and widely adopted tactical setup, provides a balanced structure that combines defensive solidity with potent attacking capabilities. Known for its adaptability, the formation is often regarded as both defensive and attacking, offering a well-rounded approach to the game. Comprising four defenders, two defensive midfielders, three attacking midfielders, and a lone striker, the 4-2-3-1 formation creates a formidable presence on the field.
+            </p>
+            <br>
+            <center>
+            <h2><b>STRENGTHS</b></h2>
+            </center>
+            <br>
+            <h3><b> Control in Midfield</b></h3>
+            <p>           With two central midfielders and an attacking midfielder in the "number 10" role, the 4-2-3-1 formation allows a team to control the midfield. This is crucial for dictating the tempo of the game and retaining possession.</p>
+                
+            <h3><b> Versatility in Attack</b></h3>
+            <p>           The formation allows for a versatile attacking setup. The lone striker up front can benefit from the support of three attacking midfielders who have the freedom to roam and create goal-scoring opportunities. The wide attacking players (wingers) provide width, stretching the opposition's defense and creating space for central players to exploit.</p>
+                
+            <h3><b> Counterattacking Potential</b></h3>
+            <p>           The 4-2-3-1 formation is well-suited for quick counterattacks. The defensive structure provides stability, and with fast wingers and a mobile striker, teams can transition rapidly from defense to attack.</p>
+                
+            <h3><b> Defensive Solidity</b></h3> 
+            <p>           The two defensive midfielders provide a solid shield in front of the defensive line, making it difficult for the opposition to penetrate through the center of the pitch. The four defenders and two defensive midfielders create a compact defensive unit, making it challenging for opponents to find spaces and exploit defensive weaknesses.</p>
+        
+            <br>
+            <center>
+            <h2><b>WEAKNESSES</b></h2>
+            </center>
+            <br>
+            <h3><b> Isolation of the Striker</b></h3>
+            <p>           The lone striker up front may become isolated if not adequately supported by the attacking midfielders. If the team struggles to connect the midfield with the striker, it can limit goal-scoring opportunities.</p>
+                
+            <h3><b> Vulnerability to Counterattacks</b></h3>
+            <p>           The attacking nature of the formation, with full-backs pushing forward and midfielders joining the attack, can leave the team susceptible to counterattacks. If possession is lost high up the pitch, there might be space behind the defensive line.</p>
+                
+            <h3><b>  Defensive Gaps in Transition</b></h3> 
+            <p>           When transitioning from attack to defense, the quick movement of attacking players can leave gaps in the defensive structure. If the opposition can exploit these gaps, it may lead to defensive vulnerabilities.</p>
+    </div>
+</body>
+</html>
